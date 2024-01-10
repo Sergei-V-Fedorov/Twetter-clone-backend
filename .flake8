@@ -1,0 +1,12 @@
+[flake8]
+multi_line_output=3
+include_trailing_comma=True
+inline-quotes = "
+
+ignore =
+; Found wrong variable name
+  WPS110,
+; Found multi-line function type annotation
+  WPS320,
+; Found local folder import
+  WPS300,
